@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="panels.css">
+    <script src="../../lib/jquery-2.2.4.js"></script>
+    <script src="panels.js"></script>
+    <title>Panels</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Aktion</h3>
+                </div>
+                <div class="panel-body">
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-default" id="default">Default</button>
+
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-primary" id="primary">Primary</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-success" id="success">Success</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-info" id="info">Info</button>
+
+                    <!-- Indicates caution should be taken with this action -->
+                    <button type="button" class="btn btn-warning" id="warning">Warning</button>
+
+                    <!-- Indicates a dangerous or potentially negative action -->
+                    <button type="button" class="btn btn-danger" id="danger">Danger</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Resultat</h3>
+                </div>
+                <div class="panel-body">
+                    Es wurde folgende Taste gedrückt: <span id="result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
